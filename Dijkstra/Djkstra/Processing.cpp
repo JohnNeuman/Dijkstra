@@ -256,9 +256,6 @@ paths_type Processing::Dijkstra(vector<point> pts, int num){
 				dijkstra_end = false;
 			};
 		}
-		//if (prev_curr_num = curr_num) {
-		//	dijkstra_end = true;
-		//}
 
 	}
 	delete[] visit_labels;
